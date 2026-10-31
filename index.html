@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CV Naysila Netha Khallifa Za</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar custom-navbar fixed-top" aria-label="Navigasi utama">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <div class="navbar-left">
+                <a class="navbar-brand fw-bold text-cream mb-0" href="#beranda">
+                    NN.
+                </a>
+
+                <button type="button" id="Tema" class="theme-toggle"
+                    aria-label="Aktifkan mode gelap" aria-pressed="false">
+                    <span id="TemaIkon" aria-hidden="true">🌙</span>
+                    <span class="theme-toggle-text">Mode</span>
+                </button>
+            </div>
+
+            <div class="nav-scroll-container">
+                <div class="d-flex gap-3">
+                    <a class="nav-link nav-custom p-0" href="#beranda">Beranda</a>
+                    <a class="nav-link nav-custom p-0" href="#tentang">Tentang</a>
+                    <a class="nav-link nav-custom p-0" href="#pendidikan">Pendidikan</a>
+                    <a class="nav-link nav-custom p-0" href="#keahlian">Keahlian</a>
+                    <a class="nav-link nav-custom p-0" href="#pengalaman">Pengalaman</a>
+                    <a class="nav-link nav-custom p-0" href="#galeri">Dokumentasi</a>
+                    <a class="nav-link nav-custom p-0" href="#faq">FAQ</a>
+                    <a class="nav-link nav-custom p-0" href="#kontak">Kontak</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!--BERANDA-->
+    <header id="beranda" class="hero-section text-white pt-5 mt-4">
+        <div class="container py-5">
+            <div class="row align-items-center g-4">
+
+                <div class="col-md-8 text-center text-md-start">
+                    <span class="badge hero-badge mb-3">
+                        PORTOFOLIO MAHASISWA
+                    </span>
+
+                    <h1 class="display-5 fw-bold text-cream">
+                        Naysila Netha Khallifa Za
+                    </h1>
+
+                    <h2 class="h5 fw-normal mb-3 text-cream-sub">
+                        Mahasiswa Sistem Informasi | Universitas Dian Nuswantoro
+                    </h2>
+
+                    <p class="lead text-cream-desc">
+                        Saya tertarik pada bidang Teknologi Informasi, Hacker, dan Cyber Security. Aktif mengikuti kegiatan perkuliahan dan organisasi kemahasiswaan.
+                    </p>
+
+                    <a href="#kontak" class="btn btn-hero fw-bold">
+                        Hubungi Saya
+                    </a>
+                </div>
+
+                <!--Avatar-->
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <div class="avatar-circle">
+                        <img src="images/foto-profil.jpg">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <!--MAIN CONTENT-->
+    <main class="container py-5">
+
+        <!--TENTANG SAYA & DATA PRIBADI-->
+        <section id="tentang" class="mb-5">
+            <div class="row g-4">
+
+                <div class="col-lg-6">
+                    <div class="card card-modern border-0 shadow-sm h-100 p-4">
+                        <span class="sub-label">PROFIL</span>
+                        <h2 class="fw-bold text-blue mb-4">Tentang Saya</h2>
+                        <p class="text-secondary fs-6">
+                            Hallo! Saya <strong>Naysila Netha Khallifa Za</strong>, mahasiswa Program Studi Sistem Informasi di Universitas Dian Nuswantoro.
+                        </p>
+                        <p class="text-secondary fs-6 mb-0">
+                            Saya suka mempelajari hal-hal baru yang berkaitan dengan
+                            teknologi informasi untuk menambah pengalaman dan pengetahuan.
+                            Saya cukup aktif dalam mengikuti kegiatan perkuliahan, seperti
+                            mengikuti organisasi mahasiswa, tugas kelompok, dan kegiatan
+                            di lingkungan kampus.
+                        </p>
+                        <div id="moreProfile" class="more-profile" hidden>
+                            <p class="text-secondary fs-6 mt-3 mb-0">
+                                Saya juga memiliki ketertarikan untuk mengembangkan kemampuan
+                                di bidang keamanan siber dan teknologi informasi melalui
+                                pembelajaran, praktik, serta pengalaman organisasi.
+                            </p>
+                        </div>
+                        <button type="button" id="readMoreBtn" class="btn btn-outline-primary mt-3">
+                            Lihat Selengkapnya
+                        </button>
+                    </div>
+                </div>
+
+                <!--DATA PRIBADI-->
+                <div class="col-lg-6" id="data-pribadi">
+                    <div class="card card-modern border-0 shadow-sm h-100 p-4">
+                        <span class="sub-label">BIODATA</span>
+                        <h2 class="fw-bold text-blue mb-4">Data Pribadi</h2>
+                        
+                        <div class="personal-info-list">
+                            <div class="info-row">
+                                <span class="info-label">Nama Lengkap</span>
+                                <span class="info-value">Naysila Netha Khallifa Za</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Status</span>
+                                <span class="info-value">Mahasiswa</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Universitas</span>
+                                <span class="info-value">Universitas Dian Nuswantoro</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Program Studi</span>
+                                <span class="info-value">Sistem Informasi</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Organisasi</span>
+                                <span class="info-value">Himpunan Mahasiswa Sistem Informasi (HMSISFO)</span>
+                            </div>
+                            <div class="info-row">
+                                <span class="info-label">Minat</span>
+                                <span class="info-value">Teknologi Informasi, Hacker, Keamanan Cyber Security</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--PENDIDIKAN-->
+        <section id="pendidikan" class="mb-5">
+            <span class="sub-label">PERJALANAN AKADEMIK</span>
+            <h2 class="fw-bold text-blue mb-4">Riwayat Pendidikan</h2>
+
+            <div class="timeline-container">
+
+               <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card card-modern border-0 shadow-sm">
+                        <span class="year-text">2019 - 2022</span>
+                        <span class="level-text">SMP</span>
+                        <h3 class="h5 fw-bold text-blue mb-0">SMP Negeri 1 Bandungan</h3>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card card-modern border-0 shadow-sm">
+                        <span class="year-text">2022 - 2025</span>
+                        <span class="level-text">SMA</span>
+                        <h3 class="h5 fw-bold text-blue mb-0">SMA Negeri 1 Ungaran</h3>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card card-modern border-0 shadow-sm">
+                        <span class="year-text">2025 - Sekarang</span>
+                        <span class="level-text">Perguruan Tinggi</span>
+                        <h3 class="h5 fw-bold text-blue mb-0">Universitas Dian Nuswantoro</h3>
+                        <p class="text-muted small mb-0">Program Studi Sistem Informasi</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--KEAHLIAN-->
+        <section id="keahlian" class="mb-5">
+            <span class="sub-label">KEMAMPUAN</span>
+            <h2 class="fw-bold text-blue mb-4">Keahlian</h2>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card card-modern border-0 shadow-sm p-4 h-100">
+                        <span class="card-num">01</span>
+                        <h3 class="h5 fw-bold text-blue mb-3">Hard Skills</h3>
+                        <ul class="skill-list">
+                            <li>Microsoft Word</li>
+                            <li>Microsoft Excel</li>
+                            <li>Dasar Pemrograman Web</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card card-modern border-0 shadow-sm p-4 h-100">
+                        <span class="card-num">02</span>
+                        <h3 class="h5 fw-bold text-blue mb-3">Soft Skills</h3>
+                        <ul class="skill-list">
+                            <li>Komunikasi</li>
+                            <li>Kerja sama dalam tim</li>
+                            <li>Public Speaking / MC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--PENGALAMAN-->
+        <section id="pengalaman" class="mb-5">
+            <span class="sub-label">KEGIATAN</span>
+            <h2 class="fw-bold text-blue mb-4">Pengalaman</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-6">
+                    <div class="card card-modern border-0 shadow-sm p-4 h-100">
+                        <span class="card-num">01</span>
+                        <h3 class="h6 fw-bold text-blue">Organisasi Kemahasiswaan</h3>
+                        <p class="text-muted small mb-0">Aktif mengikuti organisasi Himpunan Mahasiswa Sistem Informasi (HMSISFO).</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card card-modern border-0 shadow-sm p-4 h-100">
+                        <span class="card-num">02</span>
+                        <h3 class="h6 fw-bold text-blue">Public Speaking / Master of Ceremony</h3>
+                        <p class="text-muted small mb-0">Menjadi MC pada event International Canvas Business Competition.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card card-modern border-0 shadow-sm p-4 h-100">
+                        <span class="card-num">03</span>
+                        <h3 class="h6 fw-bold text-blue">Kepanitiaan Acara</h3>
+                        <p class="text-muted small mb-0">Menjadi panitia dalam berbagai event yang diselenggarakan oleh organisasi.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card card-modern border-0 shadow-sm p-4 h-100">
+                        <span class="card-num">04</span>
+                        <h3 class="h6 fw-bold text-blue">Kerja Sama Tim</h3>
+                        <p class="text-muted small mb-0">Bekerja sama dengan anggota organisasi dalam mempersiapkan dan menjalankan kegiatan.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!--DOKUMENTASI-->
+        <section id="galeri" class="mb-5">
+            <span class="sub-label">DOKUMENTASI</span>
+            <h2 class="fw-bold text-blue mb-2">Galeri Kegiatan</h2>
+            <p class="text-secondary mb-4">Beberapa dokumentasi kegiatan perkuliahan dan organisasi.</p>
+
+            <div class="row g-4">
+                <div class="col-6 col-md-4">
+                    <button type="button" class="gallery-item" data-full="images/kegiatan1.jpg" data-caption="Dokumentasi kegiatan 1">
+                        <img src="images/kegiatan1.jpg" alt="Dokumentasi kegiatan 1">
+                        <span>Pengalaman sebagai Master of Ceremony (MC)</span>
+                    </button>
+                </div>
+                <div class="col-6 col-md-4">
+                    <button type="button" class="gallery-item" data-full="images/kegiatan2.jpg" data-caption="Dokumentasi kegiatan 2">
+                        <img src="images/kegiatan2.jpg" alt="Dokumentasi kegiatan 2">
+                        <span>Divisi Kaderisasi HM SISFO UDINUS</span>
+                    </button>
+                </div>
+                <div class="col-6 col-md-4">
+                    <button type="button" class="gallery-item" data-full="images/kegiatan3.jpg" data-caption="Dokumentasi kegiatan 3">
+                        <img src="images/kegiatan3.jpg" alt="Dokumentasi kegiatan 3">
+                        <span>Keluarga Besar HM SISFO UDINUS</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--Untuk memperbesar foto galeri-->
+        <div id="galleryModal" class="gallery-modal" role="dialog" aria-modal="true" aria-label="Pratinjau foto" hidden>
+            <button type="button" id="closeGallery" class="gallery-close" aria-label="Tutup foto">&times;</button>
+            <figure>
+                <img id="modalImage" src="" alt="Foto galeri ukuran besar">
+                <figcaption id="modalCaption"></figcaption>
+            </figure>
+        </div>
+
+        <!--FAQ-->
+        <section id="faq" class="mb-5">
+            <span class="sub-label">INFORMASI</span>
+            <h2 class="fw-bold text-blue mb-4">Frequently Asked Questions</h2>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button type="button" class="faq-question" aria-expanded="false">
+                        Apa program studi yang sedang ditempuh?
+                        <span aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer" hidden>
+                        Saya sedang menempuh pendidikan di Program Studi Sistem Informasi,
+                        Universitas Dian Nuswantoro.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button type="button" class="faq-question" aria-expanded="false">
+                        Bidang apa yang saya minati?
+                        <span aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer" hidden>
+                        Saya memiliki minat pada teknologi informasi, keamanan siber,
+                        dan pengembangan kemampuan di bidang teknologi.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button type="button" class="faq-question" aria-expanded="false">
+                        Apa pengalaman organisasi yang dimiliki?
+                        <span aria-hidden="true">+</span>
+                    </button>
+                    <div class="faq-answer" hidden>
+                        Saya aktif mengikuti kegiatan Himpunan Mahasiswa Sistem Informasi
+                        serta kegiatan kepanitiaan dan acara kampus.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--KONTAK-->
+        <section id="kontak" class="mb-5">
+            <div class="card hero-section text-white shadow border-0 p-5 text-center">
+                <h2 class="fw-bold text-cream mb-3">Kontak</h2>
+                <p class="text-cream-desc mb-4">Silakan hubungi saya melalui email atau media sosial resmi berikut.</p>
+
+                <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
+                    <a href="mailto:nethasela4@gmail.com" class="btn btn-hero">
+                        Email: nethasela4@gmail.com
+                    </a>
+
+                    <a href="https://instagram.com/nethaaa30" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light">
+                        Instagram: @nethaaa30
+                    </a>
+                </div>
+
+                <div class="contact-form-wrap text-start mx-auto">
+                    <h3 class="h5 fw-bold text-cream mb-3">Kirim Pesan</h3>
+                    <form id="contactForm" novalidate>
+                        <div class="mb-3">
+                            <label for="visitorName" class="form-label text-cream">Nama lengkap</label>
+                            <input type="text" class="form-control" id="visitorName" name="visitorName" placeholder="Masukkan nama lengkap" required>
+                            <small class="field-error" id="nameError"></small>
+                        </div>
+                        <div class="mb-3">
+                            <label for="visitorEmail" class="form-label text-cream">Email</label>
+                            <input type="email" class="form-control" id="visitorEmail" name="visitorEmail" placeholder="nama@email.com" required>
+                            <small class="field-error" id="emailError"></small>
+                        </div>
+                        <div class="mb-3">
+                            <label for="visitorMessage" class="form-label text-cream">Pesan</label>
+                            <textarea class="form-control" id="visitorMessage" name="visitorMessage" rows="4" placeholder="Tulis pesan..." required></textarea>
+                            <small class="field-error" id="messageError"></small>
+                        </div>
+                        <button type="submit" class="btn btn-hero">Kirim Pesan</button>
+                        <p id="formStatus" class="form-status mt-3 mb-0" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!--FOOTER-->
+    <footer class="custom-footer text-center py-4 border-top">
+        <div class="container">
+            <p class="mb-0 fw-bold text-cream">&copy; 2026 Naysila Netha Khallifa Za</p>
+            <small class="text-cream-desc">Curriculum Vitae | Universitas Dian Nuswantoro</small>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
